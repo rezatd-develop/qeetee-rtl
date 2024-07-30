@@ -1,0 +1,236 @@
+//colors
+$dark-gray-color: #303030;
+$light-gray-color: #F5F5F5;
+$text-color: #FAEFF2;
+$light-text-color: #9A9797;
+$info-color: #636363;
+$white-color: #ffffff;
+$pink-color: #E61F7F;
+$lighter-pink-color: #FF89C2;
+$light-pink-color: #FAEFF2;
+$dark-blue: #000040;
+$deActive-color: #DCDCDC;
+$light-gold-color: #F9F5F2;
+
+//font-sizes
+$font-size-750: 0.750rem;
+$font-size-875: 0.875rem;
+$font-size-1000: 1rem;
+$font-size-1125: 1.125rem;
+$font-size-1500: 1.5rem;
+$font-size-1750: 1.750rem;
+$font-size-2000: 2rem;
+$font-size-2750: 2.75rem;
+$font-size-3000: 3rem;
+
+@font-face {
+    font-family: 'barlow';
+    src: url('../fonts/barlow/Barlow-Light.ttf') format('truetype');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'barlow';
+    src: url('../fonts/barlow/Barlow-Medium.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'barlow';
+    src: url('../fonts/barlow/Barlow-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'prompt';
+    src: url('../fonts/prompt/Prompt-Thin.ttf') format('truetype');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'prompt';
+    src: url('../fonts/prompt/Prompt-Medium.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'prompt';
+    src: url('../fonts/prompt/Prompt-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+* {
+    font-family: 'barlow';
+}
+
+.barlow-font {
+    font-family: 'barlow';
+}
+
+.prompt-thin-font {
+    font-family: 'prompt';
+    font-weight: lighter;
+}
+
+.prompt-font {
+    font-family: 'prompt';
+}
+
+.white-color {
+    color: $white-color;
+}
+
+.text-color {
+    color: $text-color;
+}
+
+.info-color {
+    color: $info-color;
+}
+
+.pink-color {
+    color: $pink-color;
+}
+
+.lighter-pink-color {
+    color: $lighter-pink-color;
+}
+
+.dark-gray-color {
+    color: $dark-gray-color
+}
+
+.dark-blue-color {
+    color: $dark-blue;
+}
+
+.deactive-color {
+    color: $deActive-color;
+}
+
+.light-text-color {
+    color: $light-text-color;
+}
+
+.light-gray-color {
+    color: $light-gray-color;
+}
+
+.white-background {
+    background-color: $white-color;
+}
+
+.dark-gray-background {
+    background-color: $dark-gray-color;
+}
+
+.transparent-background {
+    background-color: transparent;
+}
+
+.pink-background {
+    background-color: $pink-color;
+}
+
+.light-pink-background {
+    background-color: $light-pink-color;
+}
+
+.light-gray-background {
+    background-color: $light-gray-color;
+}
+
+.dark-blue-background {
+    background-color: $dark-blue;
+}
+
+.light-gold-background {
+    background-color: $light-gold-color;
+}
+
+.deactive-background {
+    background-color: $deActive-color;
+    ;
+}
+
+.text-color-border {
+    border-color: $text-color;
+}
+
+.transparent-border-color {
+    border-color: transparent;
+}
+
+.pink-border-only-bottom {
+    border-color: transparent;
+    border-bottom: $pink-color solid 2px;
+}
+
+.pink-border-bottom {
+    border-color: $pink-color;
+    border-bottom-width: 4px;
+}
+
+.pink-border {
+    border-color: $pink-color;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.font-size-750 {
+    font-size: $font-size-750;
+}
+
+.font-size-875 {
+    font-size: $font-size-875;
+}
+
+.font-size-1000 {
+    font-size: $font-size-1000;
+}
+
+.font-size-1125 {
+    font-size: $font-size-1125;
+}
+
+.font-size-1500 {
+    font-size: $font-size-1500;
+}
+
+.font-size-1750 {
+    font-size: $font-size-1750;
+}
+
+.font-size-2000 {
+    font-size: $font-size-2000;
+}
+
+.font-size-2750 {
+    font-size: $font-size-2750;
+}
+
+.font-size-3000 {
+    font-size: $font-size-3000;
+}
+
+.purchase-message {
+    border: rgb(206, 205, 205) 1px solid;
+}
+
+.purchase-message::placeholder {
+    color: rgb(220, 220, 220);
+    font-size: 0.75rem;
+}
+
+.long-input {
+    height: 80px;
+}
+
+.circle-button {
+    width: 45px;
+    height: 45px;
+}
+
+.main-search::placeholder {
+    font-size: $font-size-750;
+}

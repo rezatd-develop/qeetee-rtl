@@ -1,0 +1,56 @@
+.home-hero-slider {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .home-hero-slider-title {
+        line-height: 4.5rem;
+    }
+}
+
+.home-countdown-banner {
+    position: relative;
+    /* bottom: 50%; */
+}
+
+@media (max-width: 300px) {
+    .home-countdown-banner {
+        bottom: 10%;
+    }
+}
+
+@media (min-width: 301px) and (max-width: 450px) {
+    .home-countdown-banner {
+        bottom: 15%;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 600px) {
+    .home-countdown-banner {
+        bottom: 25%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+    .home-countdown-banner {
+        bottom: 25%;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+    .home-countdown-banner {
+        bottom: 20%;
+    }
+}
+
+@media (min-width: 1001px) {
+    .home-countdown-banner {
+        bottom: 50%;
+    }
+}
+
+.blog-card-category-label {
+    position: relative;
+    bottom: 1.3rem;
+}

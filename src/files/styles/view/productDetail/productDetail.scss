@@ -1,0 +1,43 @@
+.discount-border {
+    border-radius: 0px 12px 0px 12px;
+}
+
+.size-item {
+    width: 32px;
+    height: 37px;
+}
+
+.size-item:hover {
+    background-color: #E61F7F;
+    color: white;
+}
+
+.quantity-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.file-uploader {
+    border: rgb(186, 186, 186) 1px dotted;
+}
+
+.purchase-message {
+    border: rgb(185, 185, 185) 1px solid;
+}
+
+.purchase-message::placeholder {
+    color: rgb(181, 181, 181);
+    font-size: 0.75rem;
+}
+
+.border-bottom-pink {
+    border-bottom: #E61F7F 2px solid;
+}
+
+.review-load-more {
+    border-top: gray 2px solid;
+}
+
+.review-detail {
+    height: 60px;
+}
