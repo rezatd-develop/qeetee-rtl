@@ -5,7 +5,7 @@ import SecondaryPinkButton from '../button/SecondaryPinkButton';
 
 export default function BlogCard({ cardClassName, img, category, author, date, title }) {
     return (
-        <div className={clsx(cardClassName, 'd-flex flex-column justify-content-start prompt-font')}>
+        <div className={clsx(cardClassName, 'd-flex flex-column justify-content-start ')}>
             <img className='w-100 rounded' src={img.src} />
             <div className='blog-card-category-label ms-3'>
                 <SecondaryPinkButton buttonClassName='rounded' text={category} />

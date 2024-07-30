@@ -8,9 +8,9 @@ import instagram from '../../files/images/icons/instagram_icon.png';
 export default function SocialIcons() {
     return (
         <>
-            <Image className='mx-2' width={7} src={facebook} />
-            <Image className='mx-2' width={12} src={twitter} />
-            <Image className='mx-2' width={12} src={instagram} />
+            <Image className='mx-2 cursor-pointer' width={7} src={facebook} />
+            <Image className='mx-2 cursor-pointer' width={12} src={twitter} />
+            <Image className='mx-2 cursor-pointer' width={12} src={instagram} />
         </>
     )
 }

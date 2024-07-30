@@ -19,7 +19,7 @@ export default function PrimaryHero({ onClick, bannerImage, title, detail, butto
             <div className='p-2 p-lg-5 p-md-5 p-sm-2'>
                 <div className='ms-3 ms-lg-5 ms-md-5 ms-sm-3'>
                     <p className={clsx('font-size-3000 lh-sm', 'white-color fw-bold home-hero-slider-title')}>{title}</p>
-                    <p className='text-color my-4 font-size-875 prompt-font'>{detail}</p>
+                    <p className='text-color my-4 font-size-875 '>{detail}</p>
                     {!!buttonText && <SecondaryPinkButton onClick={onClick} buttonClassName='rounded' text={buttonText} />}
                 </div>
             </div>

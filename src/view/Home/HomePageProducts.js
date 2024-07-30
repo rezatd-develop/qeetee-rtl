@@ -18,7 +18,7 @@ export default function HomePageProducts() {
     }
 
     return (
-        <div className='white-background row mx-0 d-flex justify-content-center prompt-font'>
+        <div className='white-background row mx-0 d-flex justify-content-center '>
             <div className='col-10 col-lg-8 col-md-8 col-sm-10'>
                 <p className='font-size-1500 fw-bold mb-5'>FEATURED PRODUCTS</p>
                 <div className='d-flex justify-content-center flex-wrap row mx-0'>

@@ -24,56 +24,111 @@ $font-size-2750: 2.75rem;
 $font-size-3000: 3rem;
 
 @font-face {
-    font-family: 'barlow';
-    src: url('../fonts/barlow/Barlow-Light.ttf') format('truetype');
-    font-weight: lighter;
+    font-family: 'Yekan Bakh Fat';
+    src: url('../fonts/yekanbakh/YekanBakh-Fat.eot');
+    src: local('YekanBakh-Fat'),
+        url('../fonts/yekanbakh/YekanBakh-Fat.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/yekanbakh/YekanBakh-Fat.woff2') format('woff2'),
+        url('../fonts/yekanbakh/YekanBakh-Fat.woff') format('woff'),
+        url('../fonts/yekanbakh/YekanBakh-Fat.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'barlow';
-    src: url('../fonts/barlow/Barlow-Medium.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'Yekan Bakh';
+    src: url('../fonts/yekanbakh/YekanBakh-Medium.eot');
+    src: local('YekanBakh-Medium'),
+        url('../fonts/yekanbakh/YekanBakh-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/yekanbakh/YekanBakh-Medium.woff2') format('woff2'),
+        url('../fonts/yekanbakh/YekanBakh-Medium.woff') format('woff'),
+        url('../fonts/yekanbakh/YekanBakh-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'barlow';
-    src: url('../fonts/barlow/Barlow-Bold.ttf') format('truetype');
+    font-family: 'Yekan Bakh';
+    src: url('../fonts/yekanbakh/YekanBakh-Bold.eot');
+    src: local('YekanBakh-Bold'),
+        url('../fonts/yekanbakh/YekanBakh-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/yekanbakh/YekanBakh-Bold.woff2') format('woff2'),
+        url('../fonts/yekanbakh/YekanBakh-Bold.woff') format('woff'),
+        url('../fonts/yekanbakh/YekanBakh-Bold.ttf') format('truetype');
     font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'prompt';
-    src: url('../fonts/prompt/Prompt-Thin.ttf') format('truetype');
-    font-weight: lighter;
+    font-family: 'Yekan Bakh';
+    src: url('../fonts/yekanbakh/YekanBakh-Light.eot');
+    src: local('YekanBakh-Light'),
+        url('../fonts/yekanbakh/YekanBakh-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/yekanbakh/YekanBakh-Light.woff2') format('woff2'),
+        url('../fonts/yekanbakh/YekanBakh-Light.woff') format('woff'),
+        url('../fonts/yekanbakh/YekanBakh-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'prompt';
-    src: url('../fonts/prompt/Prompt-Medium.ttf') format('truetype');
+    font-family: 'Yekan Bakh';
+    src: url('../fonts/yekanbakh/YekanBakh-Heavy.eot');
+    src: local('YekanBakh-Heavy'),
+        url('../fonts/yekanbakh/YekanBakh-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/yekanbakh/YekanBakh-Heavy.woff2') format('woff2'),
+        url('../fonts/yekanbakh/YekanBakh-Heavy.woff') format('woff'),
+        url('../fonts/yekanbakh/YekanBakh-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yekan Bakh';
+    src: url('../fonts/yekanbakh/YekanBakh-Thin.eot');
+    src: local('YekanBakh-Thin'),
+        url('../fonts/yekanbakh/YekanBakh-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/yekanbakh/YekanBakh-Thin.woff2') format('woff2'),
+        url('../fonts/yekanbakh/YekanBakh-Thin.woff') format('woff'),
+        url('../fonts/yekanbakh/YekanBakh-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yekan Bakh';
+    src: url('../fonts/yekanbakh/YekanBakh-Regular.eot');
+    src: local('YekanBakh-Regular'),
+        url('../fonts/yekanbakh/YekanBakh-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/yekanbakh/YekanBakh-Regular.woff2') format('woff2'),
+        url('../fonts/yekanbakh/YekanBakh-Regular.woff') format('woff'),
+        url('../fonts/yekanbakh/YekanBakh-Regular.ttf') format('truetype');
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: 'prompt';
-    src: url('../fonts/prompt/Prompt-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-family: 'Yekan Bakh Hairline';
+    src: url('../fonts/yekanbakh/YekanBakh-Hairline.eot');
+    src: local('YekanBakh-Hairline'),
+        url('../fonts/yekanbakh/YekanBakh-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/yekanbakh/YekanBakh-Hairline.woff2') format('woff2'),
+        url('../fonts/yekanbakh/YekanBakh-Hairline.woff') format('woff'),
+        url('../fonts/yekanbakh/YekanBakh-Hairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
 }
 
 * {
-    font-family: 'barlow';
-}
-
-.barlow-font {
-    font-family: 'barlow';
-}
-
-.prompt-thin-font {
-    font-family: 'prompt';
-    font-weight: lighter;
-}
-
-.prompt-font {
-    font-family: 'prompt';
+    font-family: 'Yekan Bakh';
 }
 
 .white-color {
@@ -233,4 +288,8 @@ $font-size-3000: 3rem;
 
 .main-search::placeholder {
     font-size: $font-size-750;
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }

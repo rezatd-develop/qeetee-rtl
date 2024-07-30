@@ -5,7 +5,7 @@ import ProductCard from '@/src/components/card/ProductCard';
 
 export default function ProductsPageProducts() {
     return (
-        <div className='white-background row mx-0 d-flex justify-content-center prompt-font pt-5'>
+        <div className='white-background row mx-0 d-flex justify-content-center  pt-5'>
             <div className='col-12 col-lg-8 col-md-8 col-sm-12'>
                 <div className='d-flex justify-content-between align-items-center mb-5'>
                     <div className='d-flex align-items-center'>

@@ -14,12 +14,12 @@ function FaqItem({ key, title, content }) {
         <>
             <div key={key} className="w-100 pb-3 mt-3 border-bottom">
                 <div className="d-flex justify-content-between">
-                    <div className="font-size-1000 prompt-font">{title}</div>
+                    <div className="font-size-1000 ">{title}</div>
                     <Image src={collapseOpen ? collapseIcon : expandIcon}
                         width={15}
                         onClick={(e) => setCollapseOpen(!collapseOpen)} id="collapseExample" />
                 </div>
-                <Collapse className="info-color prompt-font font-size-750" isOpen={collapseOpen}>
+                <Collapse className="info-color  font-size-750" isOpen={collapseOpen}>
                     {content}
                 </Collapse>
             </div>

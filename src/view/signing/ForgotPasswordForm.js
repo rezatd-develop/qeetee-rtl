@@ -10,7 +10,7 @@ export default function ForgotPasswordForm() {
     const [otpStep, setOtpStep] = useState(1);
     return (
         <div className="w-100">
-            <p className="pink-color font-size-1125 prompt-font text-center">
+            <p className="pink-color font-size-1125  text-center">
                 {otpStep === 1 ? 'Forgot Password' : 'Enter OPT Code'}
             </p>
             <InputWithIcon inputClassName='mb-3' icon={mailIcon} iconSize={35} placeholder={otpStep === 1 ? 'Email' : 'Enter OTP'} />

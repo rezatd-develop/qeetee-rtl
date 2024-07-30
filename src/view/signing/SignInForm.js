@@ -21,15 +21,15 @@ export default function SignInForm() {
 
     return (
         <div className="w-100">
-            <p className="pink-color font-size-1125 prompt-font text-center">Sign In</p>
+            <p className="pink-color font-size-1125  text-center">Sign In</p>
             <InputWithIcon inputClassName='mb-3' icon={lockIcon} iconSize={35} placeholder='User Name' />
             <InputWithIcon inputClassName='mb-3' icon={profileIcon} iconSize={35} placeholder='Password' />
             <div className="d-flex justify-content-between align-items-center mb-3">
                 <div className="d-flex">
                     <input className="me-2" type="checkbox" value="agreed" />
-                    <div className="font-size-875 prompt-font light-text-color">Remember Me</div>
+                    <div className="font-size-875  light-text-color">Remember Me</div>
                 </div>
-                <div onClick={() => buttonClicked(enumerations.pageNameTypes.forgotPassword)} className="font-size-750 prompt-font light-text-color">Forget Password?</div>
+                <div onClick={() => buttonClicked(enumerations.pageNameTypes.forgotPassword)} className="font-size-750  light-text-color">Forget Password?</div>
             </div>
 
             <SecondaryPinkButton buttonClassName='w-100 justify-content-center' text='Sign In' />
