@@ -19,9 +19,9 @@ export default function HomePageHeroBanner() {
 
     return (
         <PrimaryHero bannerImage={bannerImage}
-            title=<>Welcome to <br /> Qeetee Shop</>
-            detail=<>Discover Your Perfect Beauty Essentials <br /> and Unleash Your Inner Radiance!</>
-            buttonText='SHOW NOW'
+            title=<>شما لایق بهترین <br /> هارمونی ها هستید ...!!</>
+            detail=<>نگران سایز نبودن لباس یا رنگ اون هستید؟ <br /> پس شبیه ساز انحصاری SHIK BEST رو از دست ندید.</>
+            buttonText='من رو به شبیه ساز ببر!!'
             onClick={() => buttonClicked(enumerations.pageNameTypes.products)} />
     )
 }

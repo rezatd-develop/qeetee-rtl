@@ -14,7 +14,7 @@ export default function BlogCard({ cardClassName, img, category, author, date, t
                 <p className='mb-0 font-size-750'>{author}</p>
                 <p className='mb-0 font-size-750'>{date}</p>
             </div>
-            <p className='mb-0 font-size-1000 mt-2 fw-bold'>{title}</p>
+            <p className='mb-0 font-size-1125 mt-2 font-weight-900'>{title}</p>
         </div>
     )
 }

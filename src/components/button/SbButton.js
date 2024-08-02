@@ -3,13 +3,14 @@ import clsx from 'clsx'
 import Image from 'next/image'
 
 
-export default function SbButton({ variant, startIcon, className, endIcon, children }) {
+export default function SbButton({ variant, startIcon, className, endIcon, onClick, children, labelClassName }) {
     return (
         <Button variant={variant}
             startIcon={startIcon}
             endIcon={endIcon}
+            onClick={onClick}
             className={clsx('yekan-bakh-font', className)}>
-            <span className='mx-2'>{children}</span>
+            <span className={clsx(labelClassName, 'mx-2')}>{children}</span>
         </Button>
     )
 }

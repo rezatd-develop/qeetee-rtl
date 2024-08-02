@@ -1,10 +1,10 @@
 import enumerations from "../enumerations/enumerations";
 
 const tabs = [
-    { id: enumerations.pageNameTypes.home, value: 'Home' },
-    { id: enumerations.pageNameTypes.products, value: 'Products' },
-    { id: enumerations.pageNameTypes.contactUs, value: 'Contact' },
-    { id: enumerations.pageNameTypes.terms, value: 'Terms and Conditions' },
+    { id: enumerations.pageNameTypes.home, value: 'SHIK BEST' },
+    { id: enumerations.pageNameTypes.products, value: 'محصولات' },
+    { id: enumerations.pageNameTypes.contactUs, value: 'تماس با ما' },
+    { id: enumerations.pageNameTypes.terms, value: 'قوانین و شرایط' },
 ]
 
 export default tabs;

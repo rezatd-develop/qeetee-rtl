@@ -47,12 +47,14 @@ export default function MiddleHeader() {
                         <div className="navbar-nav d-flex col-5 d-flex justify-content-end">
                             <SbButton variant='outline'
                                 startIcon={<LoginIcon />}
-                                className='px-1'>
+                                className='px-1'
+                                labelClassName='font-weight-900'>
                                 ورود | ثبت نام
                             </SbButton>
                             <SbButton variant='outline'
                                 startIcon={<ShoppingCartIcon />}
-                                className='px-1'>
+                                className='px-1'
+                                labelClassName='font-weight-900'>
                                 سبد خرید
                             </SbButton>
                         </div>
