@@ -8,8 +8,8 @@ export default function SbButton({ variant, startIcon, className, endIcon, child
         <Button variant={variant}
             startIcon={startIcon}
             endIcon={endIcon}
-            className={className}>
-            {children}
+            className={clsx('yekan-bakh-font', className)}>
+            <span className='mx-2'>{children}</span>
         </Button>
     )
 }

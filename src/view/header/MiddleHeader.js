@@ -1,19 +1,15 @@
 'use client'
 
-import Image from 'next/image';
-import { Col } from 'reactstrap';
-import { useRouter } from 'next/navigation';
 import { useDispatch, useSelector } from 'react-redux';
-import clsx from 'clsx';
+import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 import LoginIcon from '@mui/icons-material/Login';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
-import PrimaryButton from '@/src/components/button/PrimaryButton';
-import PrimarySearch from '@/src/components/search/PrimarySearch';
-import enumerations from '@/src/constants/enumerations/enumerations';
-import logo from '../../files/images/company/logo_sm.png';
-import userIcon from '../../files/images/icons/user_icon.png';
 import { setPageNameType } from '@/src/app/GlobalRedux/Features/pageDetails/pageDetailsSlice';
 import SbButton from '@/src/components/button/SbButton';
+import enumerations from '@/src/constants/enumerations/enumerations';
+import logo from '../../files/images/company/logo_sm.png';
 
 export default function MiddleHeader() {
 
@@ -47,23 +43,17 @@ export default function MiddleHeader() {
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse justify-content-end bg-success row" id="navbarNavAltMarkup">
-                        <div className="navbar-nav row col-5 bg-info">
-                            {/* <PrimarySearch placeHolder='Search For Products And Brands' /> */}
-
-                            {/* <PrimaryButton buttonClassName='transparent-border-color'
-                                onClick={() => buttonClicked(enumerations.pageNameTypes.signing)}
-                                icon={userIcon}
-                                textClassName={clsx(pageNameType === enumerations.pageNameTypes.signing && 'pink-color', 'font-size-750')}
-                                text='ثبت نام | ورود' /> */}
-                            {/* <PrimaryButton buttonClassName='transparent-border-color'
-                                onClick={() => buttonClicked(enumerations.pageNameTypes.cart)}
-                                icon={userIcon}
-                                textClassName={clsx(pageNameType === enumerations.pageNameTypes.cart && 'pink-color', 'font-size-750')}
-                                text='سبد خرید' /> */}
+                    <div className="collapse navbar-collapse justify-content-end row" id="navbarNavAltMarkup">
+                        <div className="navbar-nav d-flex col-5 d-flex justify-content-end">
                             <SbButton variant='outline'
-                                startIcon={LoginIcon} >
-                                    ورود | ثبت نام
+                                startIcon={<LoginIcon />}
+                                className='px-1'>
+                                ورود | ثبت نام
+                            </SbButton>
+                            <SbButton variant='outline'
+                                startIcon={<ShoppingCartIcon />}
+                                className='px-1'>
+                                سبد خرید
                             </SbButton>
                         </div>
                     </div>
