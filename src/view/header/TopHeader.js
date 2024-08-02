@@ -12,10 +12,7 @@ export default function TopHeader() {
         <div className='d-flex justify-content-center py-3 align-items-center font-size-750 dark-gray-background row mx-0'>
             <div className='d-none d-lg-flex d-md-flex d-sm-none align-items-center justify-content-between'>
                 <div className='d-flex align-items-center'>
-                    <Image className='mx-2' width={12} src={location} />
-                    <div className='text-color fw-bold'>021-5694 9856</div>
-                    <Image className='mx-2' src={divider} />
-                    <div className='text-color fw-bold'>021-6542 5489</div>
+                    <div className='text-color fw-bold'>فروشگاه Shik Best | اول پرو کنید، بعد ببرید</div>
                 </div>
                 <div className='d-flex align-items-center mx-3'>
                     <SocialIcons />

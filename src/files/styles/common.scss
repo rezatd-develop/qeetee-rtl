@@ -1,3 +1,6 @@
+//imports
+@import './components/button/button.scss';
+
 //colors
 $dark-gray-color: #303030;
 $light-gray-color: #F5F5F5;
@@ -129,6 +132,7 @@ $font-size-3000: 3rem;
 
 * {
     font-family: 'Yekan Bakh';
+    font-weight: bold;
 }
 
 .white-color {
