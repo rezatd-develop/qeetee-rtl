@@ -56,8 +56,8 @@ export default function SignInMethods() {
                 </CircleButton>
             </div>
             <div className="d-flex justify-content-center align-items-center  mt-3">
-                <div className="light-text-color font-size-750  me-2">{pageNameType === enumerations.pageNameTypes.signing ? 'dont have an account?' : 'If an already account?'}</div>
-                <div onClick={() => buttonClicked(pageNameType)} className="font-size-875 pink-color ">{pageNameType === enumerations.pageNameTypes.signing ? "sign Up" : "Sign In"}</div>
+                <div className="light-text-color font-size-750  me-2">{pageNameType === enumerations.pageNameTypes.signing ? 'هنوز ثبت نام نکرده اید؟ ' : 'حساب دارید؟ '}</div>
+                <div onClick={() => buttonClicked(pageNameType)} className="font-size-875 pink-color ">{pageNameType === enumerations.pageNameTypes.signing ? "ثبت نام" : "ورود"}</div>
             </div>
         </div>
     )

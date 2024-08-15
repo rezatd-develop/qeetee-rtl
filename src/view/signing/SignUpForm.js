@@ -7,12 +7,12 @@ import InputWithIcon from "@/src/components/inputs/InputWithIcon";
 export default function SignUpForm() {
     return (
         <div className="w-100">
-            <p className="pink-color font-size-1125  text-center">Sign up</p>
-            <input className='w-100 p-1 purchase-message mb-3' type="text" placeholder="Full Name"></input>
-            <InputWithIcon inputClassName='mb-3' icon={mailIcon} iconSize={35} placeholder='Email' />
-            <InputWithIcon inputClassName='mb-3' icon={lockIcon} iconSize={35} placeholder='Password' />
-            <InputWithIcon inputClassName='mb-3' icon={lockIcon} iconSize={35} placeholder='Confirm Password' />
-            <SecondaryPinkButton buttonClassName='w-100 justify-content-center' text='Sign up'/>
+            <p className="pink-color font-size-1125  text-center">ثبت نام</p>
+            <input className='w-100 p-1 purchase-message mb-3' type="text" placeholder="نام کامل"></input>
+            <InputWithIcon inputClassName='mb-3' icon={mailIcon} iconSize={35} placeholder='ایمیل' />
+            <InputWithIcon inputClassName='mb-3' icon={lockIcon} iconSize={35} placeholder='رمز' />
+            <InputWithIcon inputClassName='mb-3' icon={lockIcon} iconSize={35} placeholder='رمز را دوباره وارد کنید' />
+            <SecondaryPinkButton buttonClassName='w-100 justify-content-center' text='ثبت نام'/>
         </div>
     )
 }

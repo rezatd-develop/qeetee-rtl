@@ -1,7 +1,7 @@
 import Image from "next/image";
 import searchIcon from '../../../files/images/icons/search.png';
 import TermItem from "./TermItem";
-import OutlineButton from "@/src/components/button/OutlineButton";
+// import OutlineButton from "@/src/components/button/OutlineButton";
 import FlatButton from "@/src/components/button/FlatButton";
 
 export default function TermsContainer() {
@@ -15,16 +15,17 @@ export default function TermsContainer() {
                     </div>
                 </div>
                 <div className="terms-container mb-5">
+                Comming Soon ...
+                    {/* <TermItem />
                     <TermItem />
                     <TermItem />
                     <TermItem />
                     <TermItem />
-                    <TermItem />
-                    <TermItem />
+                    <TermItem /> */}
                 </div>
                 <div className="d-flex justify-content-center mb-5">
-                <FlatButton buttonClassName='pink-color pink-border white-background px-5  fw-bold mx-2' text='DECLINE' />
-                <FlatButton buttonClassName='white-color pink-border pink-background px-5  fw-bold mx-2' text='ACCEPT THE TERMS' />
+                {/* <FlatButton buttonClassName='pink-color pink-border white-background px-5  fw-bold mx-2' text='DECLINE' />
+                <FlatButton buttonClassName='white-color pink-border pink-background px-5  fw-bold mx-2' text='ACCEPT THE TERMS' /> */}
                 </div>
             </div>
         </div>

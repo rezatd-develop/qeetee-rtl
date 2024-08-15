@@ -12,12 +12,12 @@ function FaqItem({ key, title, content }) {
     const [collapseOpen, setCollapseOpen] = React.useState(false);
     return (
         <>
-            <div key={key} className="w-100 pb-3 mt-3 border-bottom">
+            <div key={key} onClick={(e) => setCollapseOpen(!collapseOpen)} className="w-100 pb-3 mt-3 border-bottom cursor-pointer">
                 <div className="d-flex justify-content-between">
                     <div className="font-size-1000 ">{title}</div>
                     <Image src={collapseOpen ? collapseIcon : expandIcon}
                         width={15}
-                        onClick={(e) => setCollapseOpen(!collapseOpen)} id="collapseExample" />
+                        id="collapseExample" />
                 </div>
                 <Collapse className="info-color  font-size-750" isOpen={collapseOpen}>
                     {content}

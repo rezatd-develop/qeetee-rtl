@@ -10,7 +10,7 @@ import divider from '../../files/images/elements/divider_line.png';
 import questionIcon from '../../files/images/elements/question.png';
 import myImg from '../../files/images/elements/dark-blue-color.png';
 import sizeTableImg from '../../files/images/icons/size-table.png'
-import OutlineButton from '@/src/components/button/OutlineButton';
+// import OutlineButton from '@/src/components/button/OutlineButton';
 import FileUploader from '@/src/components/fileUploader/FileUploader';
 import SecondaryPinkButton from '@/src/components/button/SecondaryPinkButton';
 import addToCart from '../../files/images/icons/add-to-cart.png';
@@ -69,7 +69,7 @@ export default function ProductConfiguration() {
                         <div className='py-2 px-5 border font-size-750'>{quantity}</div>
                         <div onClick={increaseQuantity} className='py-2 px-4 border font-size-750 quantity-button'>+</div>
                     </div>
-                    <OutlineButton text='BUY IN ONE CLICK' />
+                    {/* <OutlineButton text='BUY IN ONE CLICK' /> */}
                 </div>
             </div>
             <div className='mt-4'>

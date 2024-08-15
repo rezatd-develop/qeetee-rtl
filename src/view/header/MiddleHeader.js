@@ -46,12 +46,14 @@ export default function MiddleHeader() {
                     <div className="collapse navbar-collapse justify-content-end row" id="navbarNavAltMarkup">
                         <div className="navbar-nav d-flex col-5 d-flex justify-content-end">
                             <SbButton variant='outline'
+                                onClick={() => buttonClicked(enumerations.pageNameTypes.signing)}
                                 startIcon={<LoginIcon />}
                                 className='px-1'
                                 labelClassName='font-weight-900'>
                                 ورود | ثبت نام
                             </SbButton>
                             <SbButton variant='outline'
+                                onClick={() => buttonClicked(enumerations.pageNameTypes.cart)}
                                 startIcon={<ShoppingCartIcon />}
                                 className='px-1'
                                 labelClassName='font-weight-900'>

@@ -8,7 +8,7 @@ import TermsContainer from "@/src/view/singlePages/terms/TermsContainer";
 export default function TermsAndConditions() {
     return (
         <PublicLayout>
-            <TitleBanner img={bannerImage} title='Terms and Conditions' />
+            <TitleBanner img={bannerImage} title='قوانین و توافق نامه ها' />
             <TermsContainer />
         </PublicLayout>
     )

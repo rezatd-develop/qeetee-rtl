@@ -21,7 +21,7 @@ export default function SigningBannerLayout({ children }) {
         <div className="d-flex justify-content-center align-items-center flex-column col-10 col-lg-8 col-md-10 col-sm-12">
             <Image onClick={() => logoClicked(enumerations.pageNameTypes.home)} width={170} src={bannerImg} className="mb-4" />
             <p className="font-size-750 light-text-color text-center ">
-                Discover Your Perfect Beauty Essentials and Unleash Your <br></br> Inner Radiance!
+                بهترین ها را در شیک بست ببینید.
             </p>
             {children}
         </div>

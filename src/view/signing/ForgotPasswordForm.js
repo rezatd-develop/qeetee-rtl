@@ -11,10 +11,10 @@ export default function ForgotPasswordForm() {
     return (
         <div className="w-100">
             <p className="pink-color font-size-1125  text-center">
-                {otpStep === 1 ? 'Forgot Password' : 'Enter OPT Code'}
+                {otpStep === 1 ? 'فراموشی رمز' : 'کد دریافت شده را وارد کنید.'}
             </p>
-            <InputWithIcon inputClassName='mb-3' icon={mailIcon} iconSize={35} placeholder={otpStep === 1 ? 'Email' : 'Enter OTP'} />
-            <SecondaryPinkButton buttonClassName='w-100 justify-content-center' text={otpStep === 1 ? 'Submit' : 'Verify OTP'} />
+            <InputWithIcon inputClassName='mb-3' icon={mailIcon} iconSize={35} placeholder={otpStep === 1 ? 'ایمیل' : 'کد دریافت شده را وارد کنید'} />
+            <SecondaryPinkButton buttonClassName='w-100 justify-content-center' text={otpStep === 1 ? 'ارسال' : 'فعال سازی کد'} />
         </div>
     )
 }

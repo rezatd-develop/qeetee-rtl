@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import emptyRating from '../../files/images/elements/empty-rating.png';
-import OutlineButton from '@/src/components/button/OutlineButton';
+// import OutlineButton from '@/src/components/button/OutlineButton';
 
 export default function LeaveProductReview() {
     return (
@@ -36,7 +36,7 @@ export default function LeaveProductReview() {
                 </div>
                 <div className="mb-2 col-5 px-0 mx-0 justify-content-between">
                     <p className="font-size-750  mt-2 light-text-color  mb-1">Attachment</p>
-                    <OutlineButton buttonClassName='w-100' text='ADD FILES' />
+                    {/* <OutlineButton buttonClassName='w-100' text='ADD FILES' /> */}
                 </div>
             </div>
             <div className="mb-2">
