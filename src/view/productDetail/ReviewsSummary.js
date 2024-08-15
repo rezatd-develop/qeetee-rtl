@@ -7,7 +7,7 @@ import CustomSelect from '@/src/components/select/SeconarySelect';
 export default function ReviewsSummary() {
   return (
     <div>
-      <p className="fw-bold font-size-875">Average Customer Ratings</p>
+      <p className="fw-bold font-size-875">میانگین امتیاز مشتریان</p>
       <div className="d-flex align-items-center">
         <Image src={ratingImg} className="me-2" />
         <p className="mb-0 font-size-875">4.5</p>
@@ -17,7 +17,7 @@ export default function ReviewsSummary() {
           1-3 of 6 Reviews
         </div>
         <div>
-          <CustomSelect options={[{ id: 1, label: 'sort by Latest' }, { id: 2, label: 'Sort by Best' }]} />
+          <CustomSelect options={[{ id: 1, label: 'مرتب سازی بر اساس آخرین نظر ها' }, { id: 2, label: 'مرتب سازی بر اساس بهترین ها' }]} />
         </div>
       </div>
     </div>

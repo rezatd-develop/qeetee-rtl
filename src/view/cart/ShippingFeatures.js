@@ -8,16 +8,16 @@ export default function ShippingFeatures() {
     return (
         <>
             <div className='d-flex mb-4'>
-                <Image src={shippingWay} className='me-2 mt-1' />
-                <p className='info-color font-size-875 mb-0'>Free Shipping. All orders of $150 or more of eligible items across any product category qualify. </p>
+                <Image src={shippingWay} className='mx-2 mt-1' />
+                <p className='info-color font-size-875 mb-0'>ارسال رایگان بالای ۱ میلیون تومان</p>
             </div>
             <div className='d-flex mb-4'>
-                <Image src={shippingPrice} className='me-2 mt-1' />
-                <p className='info-color font-size-875 mb-0'>Payment Methods. Credit Card: Visa, MasterCard, Maestro, American Express. </p>
+                <Image src={shippingPrice} className='mx-2 mt-1' />
+                <p className='info-color font-size-875 mb-0'>ارسال رایگان بالای ۱ میلیون تومان</p>
             </div>
             <div className='d-flex mb-4'>
-                <Image src={shippingTime} className='me-2 mt-1' />
-                <p className='info-color font-size-875 mb-0'>Returns & Refunds. You can return any item purchased on SectionHub within 20 days of the delivery date. </p>
+                <Image src={shippingTime} className='mx-2 mt-1' />
+                <p className='info-color font-size-875 mb-0'>ارسال رایگان بالای ۱ میلیون تومان</p>
             </div>
         </>
     )

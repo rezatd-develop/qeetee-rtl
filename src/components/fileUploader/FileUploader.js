@@ -9,7 +9,7 @@ export default function FileUploader() {
                 <Image className='mx-2' width={17} src={fileUploaderIcon} />
             </div>
             <p className='font-size-750 info-color mb-3'>
-                Upload Image/File
+                فایل خود را آپلود کنید.
             </p>
         </div>
     )

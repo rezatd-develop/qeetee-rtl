@@ -20,8 +20,8 @@ export default function ProductTableCard({ key, img, title, color, size, beforeD
                     <p className='font-size-875 info-color text-decoration-line-through me-2'>{beforeDiscount}</p>
                     <p className='font-size-875 fw-bold'> {afterDiscount}</p>
                 </div>
-                <p className='font-size-750 mb-0'> Import duties</p>
-                <p className='font-size-750 mb-2'> included</p>
+                {/* <p className='font-size-750 mb-0'> Import duties</p>
+                <p className='font-size-750 mb-2'> included</p> */}
             </div>
         </div>
     )

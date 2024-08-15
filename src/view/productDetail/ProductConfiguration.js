@@ -24,7 +24,7 @@ export default function ProductConfiguration() {
     return (
         <div>
             <p className="mb-1 info-color font-size-750">T-shirt</p>
-            <p className="mb-1 font-size-1500 fw-bold">Basketball Shirt</p>
+            <p className="mb-1 font-size-1500 fw-bold">تیشرت بسکتبال</p>
             <div className='d-flex justify-content-start'>
                 <div className='d-flex'>
                     <Image className='m-1 me-2' width={60} src={ratingElement} />
@@ -33,36 +33,36 @@ export default function ProductConfiguration() {
                 <Image className='mx-3' src={divider} />
                 <div className='d-flex'>
                     <p className='mb-1 me-1 font-size-875'>143</p>
-                    <p className='mb-1 info-color font-size-750'>Reviews</p>
+                    <p className='mb-1 info-color font-size-750'>امتیاز ها</p>
                 </div>
                 <Image className='mx-3' src={divider} />
                 <div className='d-flex'>
                     <p className='mb-1 me-1 font-size-875'>2.3K</p>
-                    <p className='mb-1 info-color font-size-750'>Sold</p>
+                    <p className='mb-1 info-color font-size-750'>فروخته شده</p>
                     <Image className='mx-1' src={questionIcon} />
                 </div>
             </div>
             <div className='d-flex align-items-center mb-4'>
-                <p className='mb-1 font-size-1750 pink-color fw-bold'>$19.99</p>
+                <p className='mb-1 font-size-1750 pink-color fw-bold'>400,000</p>
                 <p className='font-size-750 white-color px-2 py-0 dark-blue-background discount-border mx-2 mb-0'>10%</p>
-                <p className='mb-1 info-color font-size-750 text-decoration-line-through mb-0 mt-1'>$18.99</p>
+                <p className='mb-1 info-color font-size-750 text-decoration-line-through mb-0 mt-1'>360,000</p>
             </div>
             <div>
-                <p className='mb-1 info-color font-size-750'>COLOR</p>
-                <SecondarySelect options={[{ id: 1, label: 'Black', icon: myImg }, { id: 2, label: 'Pink', icon: myImg }]} />
+                <p className='mb-1 info-color font-size-750'>رنگ</p>
+                <SecondarySelect options={[{ id: 1, label: 'مشکی', icon: myImg }, { id: 2, label: 'صورتی', icon: myImg }]} />
             </div>
             <div className='mt-3'>
-                <p className='mb-1 info-color font-size-750'>SIZE</p>
+                <p className='mb-1 info-color font-size-750'>سایز های موجود</p>
                 <div className='d-flex justify-content-between align-items-center'>
                     <ProductSizes />
                     <div className='d-flex justify-content-center align-items-center'>
-                        <p className='font-size-750 text-decoration-underline mb-0'>Size Table</p>
+                        <p className='font-size-750 text-decoration-underline mb-0'>راهنمای سایز</p>
                         <Image className='mx-2' width={15} src={sizeTableImg} />
                     </div>
                 </div>
             </div>
             <div className='mt-3'>
-                <p className='mb-1 info-color font-size-750'>QUANTITY</p>
+                <p className='mb-1 info-color font-size-750'>تعداد</p>
                 <div className='d-flex justify-content-between'>
                     <div className='d-flex'>
                         <div onClick={decreaseQuantity} className='py-2 px-4 border font-size-750 quantity-button'>-</div>
@@ -76,10 +76,10 @@ export default function ProductConfiguration() {
                 <FileUploader />
             </div>
             <div className='mt-3'>
-                <p className='mb-1 info-color font-size-750'>URL/TEXT</p>
-                <input className='w-100 p-1 purchase-message' type="text" placeholder="Type here ..."></input>
+                <p className='mb-1 info-color font-size-750'>لینک</p>
+                <input className='w-100 p-1 purchase-message' type="text" placeholder="اینجا بنویسید ..."></input>
             </div>
-            <SecondaryPinkButton buttonClassName='w-100 mt-3 justify-content-center' icon={addToCart} iconSize={10} text='ADD TO CART'/>
+            <SecondaryPinkButton buttonClassName='w-100 mt-3 justify-content-center' icon={addToCart} iconSize={10} text='اضافه به کارت'/>
         </div>
     )
 }

@@ -12,8 +12,8 @@ export default function CarPageTable() {
     const [quantity, setQuantity] = useState(1)
 
     const testData = [
-        { id: 1, img: cartImg, title: 'Basketball Shirt', color: 'Black', beforeDiscount: '$240', afterDiscount: '$120', size: 'M' },
-        { id: 1, img: cartImg, title: 'Basketball Shirt', color: 'Black', beforeDiscount: '$240', afterDiscount: '$120', size: 'M' },
+        { id: 1, img: cartImg, title: 'تیشرت بسکتبال', color: 'مشکی', beforeDiscount: '400,000', afterDiscount: '360,000', size: 'M' },
+        { id: 1, img: cartImg, title: 'تیشرت بسکتبال', color: 'مشکی', beforeDiscount: '400,000', afterDiscount: '360,000', size: 'M' },
     ]
 
     const decreaseQuantity = () => setQuantity(quantity - 1);
@@ -23,10 +23,10 @@ export default function CarPageTable() {
         <div className="row mx-0 d-flex justify-content-center mt-5 mb-4 px-4">
             <table className='col-12 col-lg-8 col-md-10 col-sm-12 cart-table'>
                 <tr className="light-gray-background light-text-color">
-                    <th className="font-prompt fw-light font-size-750 text-center py-2">PRODUCT</th>
-                    <th className="font-prompt fw-light font-size-750 text-center py-2">QTY</th>
-                    <th className="font-prompt fw-light font-size-750 text-center py-2">TOTAL</th>
-                    <th className="font-prompt fw-light font-size-750 text-center py-2">OPTIONS</th>
+                    <th className="font-prompt fw-light font-size-750 text-center py-2">محصول</th>
+                    <th className="font-prompt fw-light font-size-750 text-center py-2">تعداد</th>
+                    <th className="font-prompt fw-light font-size-750 text-center py-2">مجموع</th>
+                    <th className="font-prompt fw-light font-size-750 text-center py-2">گزینه ها</th>
                 </tr>
                 <tr className="border">
                     <td className="border min-width-available">
