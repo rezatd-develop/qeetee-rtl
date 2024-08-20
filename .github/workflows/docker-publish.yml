@@ -1,0 +1,31 @@
+name: Publish
+on:
+  release:
+    branches: [ "main" ]
+    types: [created]
+    
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: login to docker registry
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: build and push docker image to registry
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/shikbest.ir-frontend:${{ github.event.release.tag_name }}
+          
+      - name: Image digest
+        run: echo ${{ steps.build-and-push.outputs.digest }}
