@@ -3,13 +3,18 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 import '../../../files/styles/view/admin/Admin.scss';
+import { Avatar } from '@mui/material';
 
-export default function AdminSidebar() {
+export default function AdminSidebar(props) {
     const [isAdminSidebarCollapsed, setIsAdminSidebarCollapsed] = useState(false);
 
-    const toggleAdminSidebar = () => setIsAdminSidebarCollapsed(!isAdminSidebarCollapsed);
+    const toggleAdminSidebar = () => {
+        setIsAdminSidebarCollapsed(!isAdminSidebarCollapsed);
+        props.isCollapsed(!isAdminSidebarCollapsed)
+    };
 
     return (
         isAdminSidebarCollapsed
@@ -33,6 +38,16 @@ export default function AdminSidebar() {
                         </Link>
                     </li>
                 </ul>
+                <hr />
+                <div className='white-color d-flex justify-content-between align-items-center'>
+                    <div className='d-flex align-items-center'>
+                        <Avatar alt="Remy Sharp" src="" className='me-2' />
+                        <div className='white-color'>Reza TD</div>
+                    </div>
+                    <Link href='/' className='cursor-pointer white-color'>
+                        <ArrowBackIcon />
+                    </Link>
+                </div>
             </div >
     )
 }
