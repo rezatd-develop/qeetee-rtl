@@ -33,8 +33,8 @@ export default function Reviews() {
     return (
         <div className="mt-3">
             <ReviewsSummary />
-            {testData.map(item =>
-                <ReviewCard key={item.id}
+            {testData.map((item, index) =>
+                <ReviewCard key={index}
                     title={item.title}
                     comment={item.comment}
                     images={item.images}
