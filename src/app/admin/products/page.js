@@ -1,9 +1,25 @@
 'use client'
 
+import { useEffect, useState } from "react";
+
 import AgGridTable from "@/src/components/agGridTable/AgGridTable";
-import { useState } from "react";
+import { GetApProductsList } from "@/src/services/api/apiRequests/admin/products/AdminPanelServices";
 
 export default function AdminProducts() {
+    const [pageSize, setPageSize] = useState(10);
+    const [pageNumber, setPageNumber] = useState(1);
+
+    useEffect(() => getProducts(), []);
+
+    const getProducts = () => {
+        let parameters = {
+            'page_size': pageSize,
+            'page_number': pageNumber,
+        }
+
+        GetApProductsList(parameters, (result) => console.log('***result', result), (resolve) => console.log('***resolve', resolve))
+    }
+
     const [rowData, setRowData] = useState([
         { make: "Tesla", model: "Model Y", price: 64950, electric: true },
         { make: "Ford", model: "F-Series", price: 33850, electric: false },
