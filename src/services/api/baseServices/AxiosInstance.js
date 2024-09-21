@@ -1,13 +1,16 @@
+'use client'
+
 import axios from 'axios';
 
-const token = 'sss';
+const token = localStorage.getItem('token');
 
-const api = axios.create({
+const axiosInstance = axios.create({
   baseURL: 'https://api.example.com',
   headers: {
     Authorization: `Bearer ${token}`,
     'Content-Type': 'application/json',
+    'Accept': 'application/json',
   },
 });
 
-export default api;
+export default axiosInstance;
